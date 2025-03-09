@@ -1,5 +1,6 @@
 package bomb;
 
+import org.junit.Test;
 import org.junit.jupiter.api.*;
 
 import java.io.*;
@@ -8,7 +9,6 @@ import java.util.List;
 import static com.google.common.truth.Truth.assertWithMessage;
 import static org.junit.Assert.fail;
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class BombTest {
     // DO NOT MODIFY THIS FILE
     // You won't be able to find any passwords here, sorry!
